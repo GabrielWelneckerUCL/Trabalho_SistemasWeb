@@ -105,3 +105,4 @@ resource "aws_ecs_task_definition" "web_task" {
     "name": "web-container",
     "image": "your-web-service-image:latest",  # Replace with your image details
     "portMappings":
+    
